@@ -1,0 +1,1 @@
+# 2.	基于LLM的军事策略生成的RAG系统构建。给定设定的军事对抗场景输出相应的军事策略。利用Langchain框架构建基于Qwen2-7B-instruct的RAG军事策略系统，利用Faiss向量库对PDF和TXT格式数据进行向量化存储，对query在向量库中进行相似化搜索返回top k相关文档片段作为context与query一起送入LLM中，同时对上下文构建检索支链以实现对话记忆，最终实现对应军事策略输出，并通过streamlit构建WebUI进行人机对话交互。
